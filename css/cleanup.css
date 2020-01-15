@@ -5,18 +5,18 @@
 body #wall #tag-2 {
   display: none;
 }
-#wall .tag-3 {
+div#wall div#tag-3.slick, .wicked{ /*222*/
   display: none;
 }
-#wall .tag-4 {
+#wall .parent #tag-4 { /* 210 */
   display: none;
 }
-#wall .tag-5 {
+div#wall div.parent div#tag-5.slick { /*223*/
   display: none;
 }
-#wall .tag-6 {
+body div#wall div.parent div:last-child div#tag-6 { /*225*/
   display: none;
 }
-#wall .tag-7 {
+body div#wall div.parent div > div#tag-7.slick { /*225*/
   display: none;
 }
